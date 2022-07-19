@@ -86,7 +86,7 @@ text-align: center;
 }
 
 .about {
-  height: 700px;
+  padding-bottom: 60px;
 }
 
 .aspectRatioBox {
@@ -110,14 +110,14 @@ text-align: center;
 }
 
 .inner {
-  /* overlay the inner <div> exactly on top of its parent */
+  
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
 }
 .inner h4 {
-  /* copying behavior of official site */
+  
   max-width: 200px;
 }
 

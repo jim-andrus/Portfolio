@@ -12,6 +12,10 @@ height: 700px;
   }
 }
 
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 .hero-container h3 {
 font-size: 40px;
@@ -79,4 +83,28 @@ text-align: center;
   50% {
     color: black;
   }
+}
+
+.about {
+  height: 700px;
+}
+
+.aspectRatioBox {
+  padding-top: calc(2 / 3.5 * 100%);
+  background-position: center;
+  background-size: cover;
+}
+
+.about p {
+  padding-top: 90px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.about h2 {
+  font-size: 26px;
+}
+
+.skills {
+  text-align: center;
 }
